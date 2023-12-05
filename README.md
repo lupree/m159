@@ -4,8 +4,12 @@ To download the Executable on your VM run the following command:
 ```bash
 curl -O -L https://raw.githubusercontent.com/lupree/m159/main/script
 ```
+Before running the script, you need to add the execute permission to the file.
+```bash
+chmod +x script
+```
 
-To run the Executable use the following Syntax:
+To finally run the Executable use the following Syntax:
 ```bash
 sudo ./test -g "groupCode" -t "Personal Access Token"
 ```
