@@ -11,7 +11,7 @@ chmod +x script
 
 To finally run the Executable use the following Syntax:
 ```bash
-sudo ./test -g "groupCode" -t "Personal Access Token"
+sudo ./script -g "groupCode" -t "Personal Access Token"
 ```
 options:
     -g     Set the Group Code. (required)
